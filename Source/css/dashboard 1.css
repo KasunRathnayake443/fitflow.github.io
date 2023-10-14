@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200&family=Sancreek&family=Space+Grotesk:wght@600&display=swap');
+
+
+
+body{font-family: 'Space Grotesk', sans-serif;}
+
+
+.conainer{
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  
+}
+
+.background{
+  background-color: rgb(219, 255, 243);
+  padding: 10px 30px 30px 0px;
+  border-radius: 50px;
+  height: 650px;
+  overflow-y: scroll;
+}
+
+.background::-webkit-scrollbar {
+  display: none; }
+.icons{display: flex;
+flex-direction: column;
+background-image: linear-gradient(to bottom , #775db4 , #45458b);
+padding: 15px;
+border-radius: 25px;
+margin: 20px;
+position: fixed;
+height: 600px;
+overflow: hidden;
+left: 150px;
+justify-content: space-between;
+
+}
+.icons1{ 
+  display: flex;
+  flex-direction: column;
+}
+.icons img{
+  height: 40px;
+  width: 40px;
+  padding:5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+.icons img:hover{background-color:rgb(136, 48, 218) ;}
+.current {
+  background-color:rgb(109 37 175);
+}
+.header{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-top: 20px;
+
+}
+.header h2,h5{
+  margin: 0;
+  font-family: 'Space Grotesk', sans-serif;
+  color: rgb(119, 47, 186);
+}
+.header h2:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.container2{
+display: flex;
+}
+.summery{
+
+  background-image: linear-gradient(to right, #755dab , #4b4baf);
+width: 650px;
+margin: 20px;
+padding: 20px;
+border-radius: 50px;
+height: 240px;
+}
+.personalinfo{
+  display: flex;
+  color: aliceblue;
+  justify-content: space-between;
+}
+.bmi{ color: aliceblue;
+
+border-radius: 30px;
+padding: 0px 15px 15px 15px;
+margin: 20px;
+height: 69px;
+transition: all ease-in-out 0.2s;
+overflow: hidden;
+}
+.bmi1{
+  display: flex;
+align-items: center;
+}
+.bmi:hover{
+  height: 130px;
+    cursor: pointer;
+}
+.bmi img{
+  padding: 10px;
+  height: 70px;
+  width: 70px;
+}
+.joggin{
+  color: aliceblue;
+  background-color: rgb(208 7 200 / 61%) ;
+  margin: 20px;
+  border-radius: 30px;
+  padding: 15px;
+  height: 70px;
+  transition: all ease-in-out 0.2s;
+  overflow: hidden;
+  
+
+}
+.joggin1{display: flex;
+  align-items: center;
+
+}
+.joggin img{
+  padding: 10px;
+  height: 60px;
+  width: 60px; }
+
+  .joggin:hover{
+    height: 130px;
+    cursor: pointer;
+  }
+
+  .tasks{
+    color: rgb(104, 104, 104);
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    text-align: center;
+    border-radius: 35px;
+    padding: 20px;
+    margin-right: 35px;
+
+  }
+
+  .tasks h3, h4{
+    margin: 0;
+    padding: 0;
+  }
+  .tasks img{
+  
+    width: 40px;
+    height: 40px;
+    background-color:#4b4baf ;
+    padding: 8px;
+    border-radius: 15px;
+  }
+  .tasks:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 1px rgb(131, 127, 255);
+  }
+
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fff;
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.btn.cancel {
+    background-color: #ccc;
+}
+
+.dietsmain{
+  color: aliceblue;
+
+}
+.diets{
+
+  display: flex;
+  align-items: center;
+  width: 1100px;
+  background-color: #007BFF;
+  height: 300px;
+  border-radius: 25px;
+  margin-top: 30px;
+  
+}
+.diets h3:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.dietsimg{
+  overflow: hidden;
+  width: 350px;
+  height: 270px;
+  border-radius: 25px;
+  margin-left: 20px;
+  
+}
+  
+
+.dietsmain img{
+ 
+ 
+  transition: all ease-in-out 300ms;
+  overflow: hidden;
+  
+  
+}
+
+.dietsmain img:hover{
+  cursor: pointer;
+  scale: 105%;
+}
+.dietstext{
+  width: 600px;
+  margin-left: 20px;
+}
+#id1{
+  background-image: linear-gradient(to right, #0062cb , #007BFF);
+  
+}
+#id2{
+  background-image: linear-gradient(to right, #ff5d20 , #ff4e0b);
+}
+#id3{
+  background-image: linear-gradient(to right, #00a3b8, #007d8e);
+  
+}
+#id4{
+  background-image: linear-gradient(to right, #960303b0, #ff3535b0);
+   }
+
+
+
+   
+.workoutmain{
+  color: aliceblue;
+
+}
+.workout{
+
+  display: flex;
+  align-items: center;
+  width: 1100px;
+  background-color: #007BFF;
+  height: 300px;
+  border-radius: 25px;
+  margin-top: 30px;
+  
+}
+.workout h3:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.workoutimg{
+  overflow: hidden;
+  width: 350px;
+  height: 270px;
+  border-radius: 25px;
+  margin-left: 20px;
+  
+}
+  
+
+.workoutmain img{
+ 
+ 
+  transition: all ease-in-out 300ms;
+  overflow: hidden;
+  
+  
+}
+
+.workoutmain img:hover{
+  cursor: pointer;
+  scale: 105%;
+}
+.workouttext{
+  width: 600px;
+  margin-left: 20px;
+}
+#wid1{
+  background-image: linear-gradient(to right, #0062cb , #007BFF);
+  
+}
+#wid2{
+  background-image: linear-gradient(to right, #ff5d20 , #ff4e0b);
+}
+#wid3{
+  background-image: linear-gradient(to right, #00a3b8, #007d8e);
+  
+}
+#wid4{
+  background-image: linear-gradient(to right, #ca0000b0, #ff0000b0);
+   }

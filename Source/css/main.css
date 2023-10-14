@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200&family=Sancreek&family=Space+Grotesk:wght@600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+  }
+
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.column {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.content {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    
+    z-index: 2;
+}
+
+.content h1 {
+    font-size: 60px;
+    color: antiquewhite;
+    font-family: 'Space Grotesk', sans-serif;
+    
+}
+
+.content p {
+    font-size: 30px;
+    color: antiquewhite;
+}
+
+.content button {
+
+    background-color:#01a79d;
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    height: 42px;
+    border-radius: 25px;
+    font-size: 20px;
+    border: solid 2px #00ab67;
+}
+.content button:hover{
+  background-color: white;
+  color: #00ab67;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.286); 
+    z-index: 1;
+}
+
+.signupbtn{
+  position: absolute;
+  top: 6%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+ .signupbtn button{
+ background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  height: 30px;
+  width: 70px;
+  border: solid 2px white;
+  padding: 0;
+  border-radius: 20px;
+}
+
+.signupbtn button:hover{
+  background-color: #01a79d;
+
+}
+.login{
+ 
+  background-color: transparent;
+ 
+  
+  
+}
+.login:hover{
+  background-color: #00ab67;
+  border: solid 2px white;
+  border-radius: 20px;
+}
+
+.container2{
+  display: flex;
+  height: 507px;
+
+}
+.aboutimgcontainer{
+  flex: 50%;
+  overflow: hidden;
+ 
+}
+
+.aboutimg{
+  width: 100%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: all 0.5s ease-in-out;
+}
+.aboutimg:hover{
+  -webkit-filter: none;
+  filter: none;
+  scale: 110%;
+  cursor: pointer;
+ 
+}
+.abouttext1{
+  color: #ffffff;
+  flex: 50%;
+  background-color: #01a79d;
+  padding: 40px;
+  font-family: 'Space Grotesk', sans-serif;
+}
+.abouttext1 p{text-align: justify;}
+.abouttext1 h3{color:rgb(190, 190, 190) ;}
+
+.abouttext2{
+  color: #01a79d;
+  flex: 50%;
+  background-color: #ffffff;
+  padding: 40px;
+  font-family: 'Space Grotesk', sans-serif;
+}
+.abouttext2 p{text-align: justify;}
+.abouttext2 h3{color:rgb(190, 190, 190) ;}
+
+.about{
+  text-align: center;
+  font-family: 'Space Grotesk', sans-serif;
+  color: rgb(153, 153, 153);
+  font-size: 30px;
+  background-color: rgb(250, 255, 255);
+
+}
+
+.aboutbutton1{
+  background-color: #ffffff;
+  color: #01a79d;
+  width: 100px;
+  height: 30px;
+  font-family: 'Space Grotesk', sans-serif;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+ .aboutbutton1:hover{
+  scale: 110%;
+ }
+ .aboutbutton2{
+  background-color:#01a79d;
+  color: #ffffff;
+  width: 100px;
+  height: 30px;
+  font-family: 'Space Grotesk', sans-serif;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+ .aboutbutton2:hover{
+  scale: 110%;
+ }
+.servicecontainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card{
+  width: 400px;
+  margin: 20px;
+  height: 600px;
+ border: solid 1px #01a79c94 ;
+ box-shadow: 10px 10px 5px #aaaaaa;
+
+ overflow: hidden;
+}
+.card img{
+  width: 400px;
+  height: 300px;
+   transition: all 0.5s ease-in-out;
+}
+.card p{
+  font-family: 'Space Grotesk', sans-serif;
+  color: #01a79d;
+  text-align: justify;
+}
+.card h3{
+  font-family: 'Space Grotesk', sans-serif;
+  color: #4b4b4b;
+}
+.card div{
+  padding: 20px;
+}
+.card h3:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.card img:hover{
+  scale: 110%;
+  cursor: pointer;
+}
+.cardbutton{
+  font-family: 'Space Grotesk', sans-serif;
+  color: #01a79d;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: underline;
+}
